@@ -11,44 +11,14 @@ void main() {
     ),
     body: Align(
       alignment: Alignment(0, -1),
-
-        child: Text('Дистант!', style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Colors.red, ),
-        ),),
+      child: Text(
+        'Дистант!',
+        style: TextStyle(
+          fontSize: 32,
+          fontWeight: FontWeight.bold,
+          color: Colors.red,
+        ),
+      ),
+    ),
   )));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
