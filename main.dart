@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,16 +10,85 @@ void main() {
         style: TextStyle(fontSize: 32),
       ),
     ),
-    body: Align(
-      alignment: Alignment(0, -1),
-      child: Text(
-        'Дистант!',
-        style: TextStyle(
-          fontSize: 32,
-          fontWeight: FontWeight.bold,
-          color: Colors.red,
-        ),
-      ),
-    ),
-  )));
+          body: Stack(
+            alignment: Alignment.center,
+            children: [
+              Image(
+                image: AssetImage('assets/images/AP81D200705E3FYK.jpg'),
+                width: 500,
+              ),
+              Image(
+                image: AssetImage('assets/icons/weltkugels-kostenlos-1.png'),
+                width: 90,
+              ),
+              Text('Центр',
+                style: TextStyle(fontSize: 40, fontFamily: 'Doom', color: Colors.deepOrangeAccent,
+                  //fontWeight: FontWeight.bold,
+                ),
+
+
+              ),
+            ],
+          ),
+
+
+
+
+
+      )));
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
